@@ -1,9 +1,4 @@
-from typing import Optional
-
-
 class HttpRequest:
-    def __init__(
-        self, body: Optional[dict] = None, param: Optional[dict] = None
-    ) -> None:
+    def __init__(self, body: dict = None, param: dict = None) -> None:  # type: ignore
         self.body = body
         self.param = param
