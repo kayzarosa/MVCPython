@@ -5,6 +5,7 @@
     "**/.pyc": {"when": "$(basename).py"},
     "**/__pycache__": true,
     "**/.pytest_cache": true,
-    "**/__init__.py": true,
-  }
+    "**/__init__.py": false,
+  },
+  "python.autoComplete.extraPaths": []
 }
